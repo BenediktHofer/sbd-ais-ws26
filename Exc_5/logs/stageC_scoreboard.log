@@ -1,0 +1,21 @@
+Run 1794328440: started 17:34:00 (3.4 min ago), 60 machines x 10 Hz, 3 faults so far
+
+Detection  (topic anomalies: 1,058 anomaly events, models ['v1'])
+   #  machine   start  detected   delay
+   1  M-029       40s       yes   7.9 s
+   2  M-017      100s       yes  12.2 s
+   3  M-020      160s       yes  11.9 s
+
+  faults detected: 3/3, mean delay 10.7 s; false alarms (episodes on healthy machines): 0
+  latency reading -> anomaly event: p50 0.05 s, p95 0.09 s, max 0.13 s
+  duplicate anomaly events (same anomaly_id): 0
+
+Detector instances  (model telemetry, this run)
+  det-1          pid 36899   v1  readings    37,330  missing       0  out-of-order      0  machines   19  alive
+  det-2          pid 37003   v1  readings    35,364  missing       0  out-of-order      0  machines   18  alive
+  det-3          pid 37107   v1  readings    45,184  missing       0  out-of-order      0  machines   23  alive
+
+Requirements (measurable part)
+  [PASS] R2 complete and ordered: 0 readings missing, 0 out of order
+  [PASS] R3 fresh: p95 latency < 5 s
+  [PASS] detection: all faults found, at most 2 false alarms

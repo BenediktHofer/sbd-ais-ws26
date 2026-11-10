@@ -90,23 +90,46 @@ class KafkaSink:
     (created how?), which key, which producer settings?
     """
 
+    TOPIC = "readings"      # created beforehand with 12 partitions (see description.md), not by the first write
+
     def __init__(self, args):
         from confluent_kafka import Producer
+        self.errors = []
         self.producer = Producer({
             "bootstrap.servers": args.bootstrap,
-            # TODO: more settings?
+            "client.id": "plant-gateways",
+            # R2: no reading may be lost, duplicated or reordered by retries
+            "acks": "all",                  # a write counts only once the broker has stored it
+            "enable.idempotence": True,     # retries do not create duplicates or change the order per partition
+            # throughput without hurting R3: batch for at most 5 ms instead of one request per reading
+            "linger.ms": 5,
+            "compression.type": "lz4",
         })
 
+    def _on_delivery(self, err, msg):
+        if err is not None:
+            self.errors.append(err)
+
     def send(self, reading):
-        # TODO: send the reading (as JSON) to Kafka: self.producer.produce(...)
-        raise NotImplementedError("KafkaSink.send() is part of your solution (Stage C1)")
+        # key = machine_id: same machine -> same partition -> same detector instance, in seq order (R2)
+        while True:
+            try:
+                self.producer.produce(self.TOPIC, key=reading["machine_id"], value=json.dumps(reading),
+                                      on_delivery=self._on_delivery)
+                return
+            except BufferError:             # local queue full: let librdkafka send, then retry (never drop)
+                self.producer.poll(0.05)
 
     def tick(self):
         """Called once per tick, after all readings of that tick were sent."""
-        self.producer.poll(0)
+        self.producer.poll(0)               # serve delivery callbacks; no flush() per reading (too slow)
+        if self.errors:
+            raise RuntimeError(f"Kafka delivery failed: {self.errors[0]}")
 
     def close(self):
-        self.producer.flush(10)
+        left = self.producer.flush(10)
+        if left:
+            print(f"WARNING: {left} readings not delivered")
 
 
 # ---------------------------------------------------------------- simulation

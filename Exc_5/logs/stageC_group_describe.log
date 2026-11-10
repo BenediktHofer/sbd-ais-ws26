@@ -1,0 +1,14 @@
+
+GROUP                  TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                HOST            CLIENT-ID
+line-guardian-detector readings        8          6618            6666            48              det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        11         3308            3333            25              det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        10         6618            6666            48              det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        9          4412            4444            32              det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        4          5510            5555            45              det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        3          4408            4444            36              det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        2          3306            3333            27              det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        5          6612            6666            54              det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        1          4408            4444            36              det-3-b8b4f284-7b41-47f8-b87c-2815a626016d /172.66.156.100 det-3
+line-guardian-detector readings        7          9913            9999            86              det-3-b8b4f284-7b41-47f8-b87c-2815a626016d /172.66.156.100 det-3
+line-guardian-detector readings        6          6612            6666            54              det-3-b8b4f284-7b41-47f8-b87c-2815a626016d /172.66.156.100 det-3
+line-guardian-detector readings        0          4404            4444            40              det-3-b8b4f284-7b41-47f8-b87c-2815a626016d /172.66.156.100 det-3

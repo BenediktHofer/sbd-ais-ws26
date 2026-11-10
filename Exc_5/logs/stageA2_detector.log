@@ -1,0 +1,10 @@
+[baseline] polling table readings for id > 18000 (Ctrl+C to stop)
+[baseline] read      674  backlog     840 rows  delay   1.5 s  missing     30  anomalies 0
+[baseline] read    3,344  backlog   4,186 rows  delay   7.0 s  missing     45  anomalies 0
+[baseline] read    5,344  backlog   6,564 rows  delay  11.0 s  missing     60  anomalies 0
+[baseline] read    7,344  backlog   9,066 rows  delay  15.2 s  missing     60  anomalies 0
+[baseline] read    9,344  backlog  11,640 rows  delay  19.4 s  missing     60  anomalies 0
+[baseline] read   11,344  backlog  14,155 rows  delay  23.7 s  missing     60  anomalies 0
+[baseline] read   13,344  backlog  16,880 rows  delay  28.2 s  missing     60  anomalies 0
+[baseline] read   15,344  backlog  19,549 rows  delay  32.7 s  missing     60  anomalies 0
+[baseline] stopped: read 15,344 readings, last id 34,014, 60 readings missing, 0 anomalies

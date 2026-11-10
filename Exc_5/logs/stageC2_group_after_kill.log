@@ -1,0 +1,14 @@
+
+GROUP                  TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                HOST            CLIENT-ID
+line-guardian-detector readings        1          12856           13088           232             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        8          19284           19632           348             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        7          28926           29448           522             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        11         9642            9816            174             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        10         19284           19632           348             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        9          12856           13088           232             det-1-026c3e44-a06e-46db-b4bd-38db5c58df18 /172.66.156.100 det-1
+line-guardian-detector readings        4          16135           16360           225             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        3          12912           13088           176             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        2          9684            9816            132             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        6          19366           19632           266             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        5          19368           19632           264             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2
+line-guardian-detector readings        0          12912           13088           176             det-2-2b8f2c66-9335-4de6-bfeb-db0711deb6d4 /172.66.156.100 det-2

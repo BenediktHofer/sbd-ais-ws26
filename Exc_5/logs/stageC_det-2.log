@@ -1,0 +1,94 @@
+[det-2] readings -> anomalies, group line-guardian-detector (Ctrl+C to stop)
+[det-2] assigned partitions []
+[det-2] assigned partitions [0, 1, 2, 3, 4, 5]
+[det-2] revoked partitions [0, 1] -> forgot 0 machines
+[det-2] assigned partitions []
+[det-2] assigned partitions []
+[det-2]         1 readings       0 anomalies  missing 0  out-of-order 0  machines 1  delay 1.44 s
+[det-2]         2 readings       0 anomalies  missing 0  out-of-order 0  machines 2  delay 1.44 s
+[det-2]         3 readings       0 anomalies  missing 0  out-of-order 0  machines 3  delay 1.45 s
+[det-2]         4 readings       0 anomalies  missing 0  out-of-order 0  machines 4  delay 1.45 s
+[det-2]     1,028 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     1,928 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]     2,827 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     3,727 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]     4,628 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     5,529 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     6,428 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]     7,328 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     8,227 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]     9,127 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    10,028 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    10,927 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    11,827 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    12,727 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    13,627 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    14,527 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    15,427 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    16,327 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    17,227 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    18,127 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    19,028 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    19,927 readings       0 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    20,827 readings      35 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    21,727 readings      85 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    22,627 readings     135 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    23,527 readings     185 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    24,429 readings     236 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    25,327 readings     285 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    26,227 readings     335 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    27,127 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    28,027 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    28,927 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    29,827 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    30,727 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    31,627 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    32,527 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    33,427 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    34,327 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.02 s
+[det-2]    35,227 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.01 s
+[det-2]    36,001 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.54 s
+[det-2]    36,002 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.55 s
+[det-2]    36,003 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.55 s
+[det-2]    36,004 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.56 s
+[det-2]    36,005 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.56 s
+[det-2]    36,456 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    37,356 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    38,256 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    39,156 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    40,057 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    40,955 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    41,852 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    42,757 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    43,656 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    44,533 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.13 s
+[det-2]    45,454 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    46,357 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    47,256 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    48,157 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    49,055 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    49,953 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    50,858 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    51,757 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    52,658 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    53,557 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    54,458 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.04 s
+[det-2]    55,354 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2]    56,241 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.14 s
+[det-2]    57,156 readings     367 anomalies  missing 0  out-of-order 0  machines 18  delay 0.03 s
+[det-2] assigned partitions [0, 6]
+[det-2]    58,296 readings     367 anomalies  missing 0  out-of-order 0  machines 28  delay 6.53 s
+[det-2]    59,621 readings     367 anomalies  missing 0  out-of-order 0  machines 28  delay 4.34 s
+[det-2]    60,935 readings     409 anomalies  missing 0  out-of-order 0  machines 28  delay 4.63 s
+[det-2]    62,236 readings     455 anomalies  missing 0  out-of-order 0  machines 28  delay 5.03 s
+[det-2]    63,507 readings     500 anomalies  missing 0  out-of-order 0  machines 28  delay 5.44 s
+[det-2] revoked partitions [0, 2] -> forgot 7 machines
+[det-2] assigned partitions []
+[det-2] assigned partitions []
+[det-2]    64,783 readings     591 anomalies  missing 0  out-of-order 0  machines 21  delay 3.63 s
+[det-2]    66,084 readings     603 anomalies  missing 0  out-of-order 0  machines 21  delay 3.44 s
+[det-2]    67,356 readings     603 anomalies  missing 0  out-of-order 0  machines 21  delay 2.33 s
+[det-2]    68,646 readings     603 anomalies  missing 0  out-of-order 0  machines 21  delay 1.23 s
+[det-2]    69,922 readings     622 anomalies  missing 0  out-of-order 0  machines 21  delay 0.14 s
+[det-2] revoked partitions [3, 4, 5, 6] -> forgot 21 machines
+[det-2] stopped after 70,456 readings, 648 anomalies

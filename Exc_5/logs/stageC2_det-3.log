@@ -1,0 +1,11 @@
+[det-3] readings -> anomalies, group line-guardian-detector (Ctrl+C to stop)
+[det-3] assigned partitions []
+[det-3] assigned partitions [0, 1, 2, 7]
+[det-3]       339 readings       0 anomalies  missing 0  out-of-order 0  machines 7  delay 13.10 s
+[det-3]     1,631 readings       0 anomalies  missing 0  out-of-order 0  machines 20  delay 11.79 s
+[det-3]     2,906 readings       0 anomalies  missing 0  out-of-order 0  machines 20  delay 7.50 s
+[det-3]     4,202 readings       0 anomalies  missing 0  out-of-order 0  machines 20  delay 6.10 s
+[det-3]     5,479 readings       0 anomalies  missing 0  out-of-order 0  machines 20  delay 4.69 s
+[det-3]     6,758 readings       0 anomalies  missing 0  out-of-order 0  machines 20  delay 3.29 s
+[det-3] revoked partitions [0, 1, 2, 7] -> forgot 20 machines
+[det-3] stopped after 6,865 readings, 0 anomalies
